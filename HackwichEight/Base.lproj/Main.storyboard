@@ -44,7 +44,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="sC8-ln-O4z">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="sC8-ln-O4z">
                                 <rect key="frame" x="256" y="199" width="408" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -56,7 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="My Guess"/>
                                 <connections>
-                                    <action selector="MyGuessButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oKs-1K-d9m"/>
+                                    <action selector="myGuessButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T9S-VW-Orr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -65,11 +65,12 @@
                     </view>
                     <connections>
                         <outlet property="slider" destination="sC8-ln-O4z" id="7Ta-vb-4lM"/>
+                        <outlet property="targetLabel" destination="HOp-7J-bB8" id="zna-AG-JSF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19.438444924406049" y="79.906542056074755"/>
+            <point key="canvasLocation" x="-198" y="-115"/>
         </scene>
     </scenes>
     <resources>
